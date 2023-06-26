@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador | mensaje</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+
+</head>
+
+<body>
+
+	<header class="headerPrincipal">
+		<div class="container">
+			<h1 class="headerPrincipal-titulo">
+				<img src="img/logo.png" alt="" class="header__logo">
+				<a href="#">Encriptador</a>
+			</h1>
+
+			<nav class="headerPrincipal-nav">
+				<a class="headerPrincipal-nav-link" href="#">Inicio</a>
+			</nav>
+		</div>
+
+	</header>
+
+	<main class="contenidoPrincipal">
+		<div class="container">
+			<section class="encriptar">
+				<textarea class="textarea" cols="30" rows="10" placeholder="Ingrese el texto para encriptar"></textarea>
+				<div>
+					<h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+				</div>
+			</section>
+			<section class="encriptar">
+				<div class="botones">
+					<button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+					<button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+				</div>
+			</section>
+
+
+			<section class="encriptar">
+				<textarea class="mensaje" cols="20" rows="10"></textarea>
+				<div>
+					<button class="copiar" onclick="btnCopiar()">Copiar</button>
+				</div>
+			</section>
+		</div>
+
+
+
+
+
+	</main>
+	<footer class="footer ">
+		<img src="img/logo.png" alt="" class="footer__logo">
+		<ul class="footer__social">
+			<li><a href="#" class="footer_midia"><img src="img/facebook.png" alt="Icono Facebook"></a></li>
+			<li><a href="#" class="footer_midia"><img src="img/instagram.png" alt="Icono Instagram"></a></li>
+			<li><a href="#" class="footer_midia"><img src="img/twitter.png" alt="Icono Twitter"></a></li>
+		</ul>
+
+	</footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
